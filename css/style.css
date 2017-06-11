@@ -1,0 +1,145 @@
+body {
+    background: linear-gradient(to right, #c02425, #f0cb35);
+    ;
+    overflow-x: hidden;
+}
+
+#tbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    /*    border: 0.5px solid #2ABB9B;*/
+    background: #8E0E00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#title {
+    font-size: 35px;
+    line-height: 0.5;
+    color: antiquewhite;
+    /*    font-family: 'Patrick Hand SC', cursive;*/
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#map {
+    position: absolute;
+    left: 20px;
+    height: 400px;
+    width: 500px;
+    top: 100px;
+    background-color: grey;
+    /*    display: inline-block;*/
+    border-radius: 2.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+select:focus {
+    color: transparent !important;
+    border: 0;
+    text-shadow: 0 0 0 #000;
+    outline: none;
+}
+
+option {
+    color: #000;
+}
+
+#mncntnt {
+    position: absolute;
+    left: 20px;
+    /*    display: inline-block;*/
+    top: 100px;
+    padding: 15px;
+    transition: left 4s;
+}
+
+#ddown {
+    /*    background-color: #d35400;*/
+    background: #F1F2B5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #135058, #F1F2B5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #135058, #F1F2B5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+#lblcntry,
+#lbllgs,
+#lblcrncy,
+#lblcptl {
+    line-height: 25px;
+    font-size: 25px;
+    line-height: 2;
+    /*    font-family: 'Bubbler One', sans-serif;*/
+    /*    font-family: 'Vibur', cursive;*/
+    /*    font-family: 'Patrick Hand SC', cursive;*/
+    /*    font-family: 'Yanone Kaffeesatz', sans-serif;*/
+    font-family: 'Dancing Script', cursive;
+    color: antiquewhite;
+}
+
+#lbllgs,
+#lblcrncy,
+#lblcptl {
+    line-height: 1;
+}
+
+#capital,
+#currency,
+#lngs {
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 20px;
+}
+
+#ddlcountry {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 20px;
+}
+
+#flgimg {
+    /*    display: flex;*/
+    justify-content: center;
+    display: none;
+}
+
+#cpcrln {
+    /*    display: block;*/
+    /*    background-color: #d35400;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    background: #F1F2B5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #135058, #F1F2B5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #135058, #F1F2B5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 15px auto 15px auto;
+    display: none;
+}
+
+footer {
+    background-color: rgba(20, 25, 35, 0.2);
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 15px;
+}
